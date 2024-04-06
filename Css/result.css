@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.container{
+    background: linear-gradient(180deg, rgb(61, 59, 59), rgb(110, 176, 202));
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 100px auto 0;
+    box-shadow: 3px 3px 2px rgb(112, 112, 155);
+}
+.container h1{
+    background-color: green;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+#board{
+    font-size:18px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container a{
+    color: red;
+    transition: 3s ;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+a:hover{
+    color:white;
+}

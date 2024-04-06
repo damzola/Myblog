@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(360deg, rgb(50, 35, 35), rgba(5, 43, 48, 0.58)) ;
+    background-color: black !important;
+    color: white;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+
+}
+.flex{
+    background-color:rgb(240, 235, 235);
+    padding: 10px;
+    flex: 30%;
+    padding-top: 20px;
+    text-indent: 5px;
+    letter-spacing: 2px;
+    box-shadow: 5px 12px 20px rgb(3, 3, 3);
+    
+    
+}
+.flex1{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    flex: 70%;
+    padding-top: 20px;
+    display: block;
+    text-indent: 5px;
+    letter-spacing: 2px;
+    /* box-shadow: 5px 12px 20px rgb(3, 3, 3); */
+}
+.headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    box-shadow: 1px 3px 2px rgb(43, 46, 43);
+    text-align: center; 
+    padding: 5PX; 
+    
+}
+.headline h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.show{
+    column-count: 2;
+    column-gap: 5px;
+    padding: 2px;
+
+  
+
+}
+.show img{
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    
+    
+}
+
+img{
+    
+    border-radius: 15px;
+    background-color: transparent;
+    display: block;
+    padding: 10px;
+    
+}
+img:hover{
+    cursor: pointer;
+    display: block;
+    border: 2px solid rgb(89, 37, 37) ;
+
+}
+.workshow{
+    /* background-color: white; */
+    color: black;
+    margin: 5px;
+    padding: 5px;
+   
+}
+.workshow p{
+     box-shadow: 5px 2px 5px rgb(0, 0, 0);
+     padding: 20px;
+     margin: 10px;
+     color: #000;
+     /* background-color:#000; */
+     font-weight: normal;
+     font-size: 14px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d-block{
+    width: 70%;
+    margin: auto;
+    height: auto;
+
+}
+.link{
+    display: block;
+    padding-right: 10px;
+
+
+}
+.link ul a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+}
+.anh-a{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.anh-a:hover{
+    background-color: rgb(216, 61, 61);
+    color: aliceblue;
+}
+.link ul a:hover{
+    color: rgb(132, 255, 255);
+}
+.h-1{
+    color: black;
+    border-bottom: 3px solid;
+    border-color: rgba(157, 220, 20, 0.5);
+    padding: 10px;
+}
+.link h1:hover{
+    border-color: rgb(37, 199, 26);
+    
+}
+.Myclass{
+    /* border-top: 7px double; */
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background-color: rgba(202, 197, 197, 0.4);
+    border-radius: 3px;
+   
+}
+.Myclass p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid;
+    
+}
+.Myclass h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: start;
+    font-weight: bold;
+    padding: 10px;
+   
+}
+.Myclass h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+.Myclass button{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color:black;
+    background-color: transparent;
+    padding: 2px;
+}
+.Myclass button:hover{
+    color: tomato;
+    font-style: italic;
+}
+
+    /* ABOUT PAGE STYLING CODE  */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: black;
+        color: white;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    .m-ps{
+        color: black;
+        display: block;
+        color: white;
+        text-align: justify;
+        text-align-last: center;
+        word-spacing: 5px;
+        line-height: 30px;
+    
+    
+    }
+    h2{
+        color: red;
+        text-align: center;
+        margin: 10px;
+        text-decoration: underline;
+    }
+    .mps{
+        /* justify-content: center; */
+        width: 50%;
+        margin: auto;
+    }
+    .viewlife{
+    width: 100%;
+    height: 100%;
+    
+    }
+    img{
+        width: 50%;
+        margin: auto;
+        border: 1px solid transparent;
+    
+    }
+    img:hover{
+        /* background-color: lightgrey; */
+        cursor: pointer;
+        border: 3px solid transparent;
+    }
+    
+    .info-me{
+        width: 50%;
+        margin: auto;
+    }
+    
+    /* .image-me{
+        width: 100%;
+        height: auto;
+    
+    } */
+    
+    .p-pp{
+        text-align: justify;
+        word-spacing: 3px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .p-p{
+        text-align: center;
+        border-style:groove ;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-width: 5px;
+        border-color: white;
+        padding: 10px;
+    }
+    .icon a i{
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+    a i:hover{
+        background-color: white;
+        color: black;
+    }
+
+    
+    
+            /* NEWS PAGE STYLING LINE  */
+    
+            .half{
+                width: 50%;
+                margin: auto;
+    
+            }
+    
+            .h-show{
+                color: black;
+                /* text-align: center; */
+                /* display: inline; */
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-style: normal;
+                margin-top: 15px;
+                text-align: justify;
+                text-align-last: center;
+    
+            }
+            .hn-n{
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: start;
+                color: red;
+                font-weight: lighter;
+                padding: 10px;
+                text-transform: capitalize;
+            }
+            p.main{
+    
+                padding: 5px;
+                text-indent: 50px;
+                word-spacing: 2px;
+                color: black;
+                text-align: justify;
+                font-style: normal;
+                font-size: 18px;
+                font-weight: lighter;
+                font-family:  Geneva, Tahoma, sans-serif;
+                border: 1px solid transparent;
+                border-radius:5px;
+                line-height: 30px;
+                background-color: aliceblue;
+                border-radius: 14px;
+    
+    
+            }
+            h6{
+                display: none  ;
+            }
+
+            .google-Ads{
+                width: 100%;
+                padding: 20px;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: black;
+                background-image: url(/Image/clear.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: start;
+                font-family: fantasy;
+                font-size: 14px;
+                font-style: italic;
+                border-radius: 4px;
+            }
+            .google-Ads img{
+                width: 50%;
+                height:auto;
+                padding: 5px;
+            }
+            .google-Ads video{
+                width: 100%;
+                height: 200px;
+                padding: 5px;
+            }
+
+            /* MEDIA QUARY FOR THE INDEX PAGE  */
+ @media only screen and (max-width:1024px) {
+    .container-fluid1{
+         display: block;
+      }
+      .flex1{
+                flex: none;
+                float: none;
+                display: block;
+                width: 100%;
+                }
+            
+        .flex{
+                float: none;
+                flex: none;
+                display: block;
+                width: 100%;
+                background-color: red;
+              } 
+        .link ul a{
+               
+                text-align: start;  
+                width: 50%;
+                display: block;
+                padding: 10px;
+                font-size: 18px;
+        }
+        .h-1{
+            text-align: start;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .show{
+            column-count: 2;
+            width: 100%;
+            height: auto;
+            /* margin: auto; */
+        }
+             
+              
+            } 
+ @media only screen and (max-width:745px) {
+    .container-fluid1{
+        display: block;
+    }
+    .flex{
+        float: none;
+        flex: none;
+        display: block;
+        width: 100%;
+        background-color:rgb(240, 235, 235);
+       
+    }
+    .link ul a{
+        text-align: center;
+        /* background-color:transparent; */
+        color: black;
+        width: 100%;
+        padding: auto;
+        display: block;
+    }
+    .h-1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .show{
+        column-count: 1;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+ }
+ /* @media only screen and (min-width:765px) {
+    .container-fluid1{
+         display: block;
+         width: 100%;
+      }
+      .flex1{
+                flex: none;
+                float: none;
+                display: block;
+                width: 100%;
+                }
+            
+        .flex{
+                float: none;
+                flex: none;
+                display:block;
+                width: 100%;
+                background-color: rgb(221, 228, 17);
+              } 
+        .link ul a{
+               
+                text-align: start;  
+                width: 50%;
+                display: block;
+                padding: 10px;
+                font-size: 18px;
+        }
+         .h-1{
+            text-align: start;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .show{
+            column-count: 2;
+            width: 100%;
+            height: auto;
+          
+        } 
+             
+              
+            } */
+    
+    
+
+

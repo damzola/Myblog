@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgb(9, 9, 9);
+}
+.google-Ads{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    background-image: url(/Image/clear.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-position: center; */
+    font-family: fantasy;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 4px;
+}
+.google-Ads img{
+    width: 50%;
+    height:auto;
+    padding: 5px;
+}
+.google-Ads video{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+.container-fluid1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    /* margin:100px auto 0; */
+    
+}
+.box1{
+    background-color:rgb(214, 213, 213);
+    padding: 10px;
+    flex: 20%;
+    padding-top: 20px;
+    text-indent: 5px;
+    margin-right: 2px;
+    border-right: 1px solid lightgray;
+    box-shadow: 5px 50px 10px rgb(3, 3, 3);
+    
+
+    
+}
+.box2{
+    background-color:rgb(240, 235, 235);
+    padding: 10px;
+    flex: 80%;
+    padding-top: 20px;
+    text-indent: 5px;
+    letter-spacing: 2px;
+    color: black;
+    
+}
+.job-done{
+    border: none ;
+    margin-top: 20px;
+    column-count: 2;
+    column-gap: 3px;
+    padding: 10px;
+}
+.job-done p{
+    color: black;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.heading-txt h1{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    border-bottom: 1px solid;
+    padding: 10px;
+    color: black;
+}
+.heading-txt p{
+    font-size: 14px;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  
+}
+.image-tag h4{
+    text-align: center;
+    font-family: 'Geneva', Verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: lighter;
+    font-weight: bold;
+
+}
+.image-tag p{
+    color: black;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+   
+}
+
+.image-tag img{
+    width: 97%;
+    object-fit: cover;
+    padding: 5px;
+    height: 250px;
+    transition: .3s;
+    border-radius: 7px;
+
+}
+.resplace p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.resplace h4{
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.rescipee{
+    width: 100%;
+}
+.rescipee img{
+    width: 95%;
+    object-fit: cover;
+    padding: 5px;
+    height: 250px;
+    transition: .3s;
+    border-radius: 7px;
+}
+.rescipee img:hover{
+   width: 100%;
+   height: 270px;
+   cursor: pointer;
+
+}
+.job-more{
+    border: none ;
+    margin-top: 20px;
+    padding: 10px;
+}
+.job-more p{
+    color: black;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.image-tag{
+    background-color: rgb(255, 254, 254);
+    padding: 10px; 
+    cursor: pointer;
+}
+.image-tag:hover{
+    background-color: rgb(234, 232, 232);
+    padding: 10px;
+    box-shadow: 1px 2px 5px rgb(12, 12, 16);
+}
+.image-tag img:hover{
+    width: 100%;
+    padding: 5px;
+}
+
+.video{
+    padding: 20px;
+    background-color: rgb(232, 226, 226);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    
+   
+
+}
+#vi-d{
+    width: 80%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+#vi-d:hover{
+    background-color:transparent;
+    border: 1px dotted transparent;
+    box-shadow: 1px 1px 5px;
+}
+.video h3{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     padding-bottom: 10px;
+     font-weight: lighter;
+     
+}
+.video h3:hover{
+    text-decoration: underline;
+    padding: 5px;
+}
+.video p{
+    color: black;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.box1 h5{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: underline; 
+    color: rgb(106, 6, 6);  
+}
+
+.pro-a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.pro-a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pro-a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a.actives{
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  
+}
+a.actives:hover{
+    background-color: skyblue;
+    color:white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+ @media only screen and (max-width:765px) {
+    .container-fluid1{
+        display: block;
+    }
+
+  .box1{
+    flex: none;
+    float: none;
+    display: block;
+    width: 100%;
+  } 
+  .box1 h5{
+    text-align: start;
+    padding-bottom: 20px;
+    font-size: 30px;
+  } 
+  .cate ul a{
+    display: inline;
+    padding: 15px;
+    color: red;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  a.actives{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  .cate ul a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+  }
+
+  .box2{
+    border: 1px solid;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+  .video h3{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .image-tag h4{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  .job-done{
+    column-count: 1;
+  }
+  
+}
+
+    /* SKILLS STYLING CODE SECTION  */
+
+    .skills-set{
+        /* margin: 100px auto ;  */
+        width: 100%;
+    }
+    .skill-cover{
+        width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    /* margin:100px auto 0; */
+    }
+    .skill-inner{
+        background-color:rgb(244, 247, 244);
+        padding: 10px;
+        flex: 20%;
+        padding-top: 20px;
+        /* text-indent: 5px; */
+        /* letter-spacing: 2px; */
+        color: black;
+        width: 100%;
+        /* margin:100px auto 0; */
+    }
+    .skill-inner1 p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .skill-inner1 h2{
+        color: red;
+    }
+    .skill-inner1 h3{
+        color: red;
+        font-style: italic;
+    }
+    .skill-inner1 img{
+        width: 80%;
+        height: auto;
+    
+
+    }
+    .skill-inner, nav, ol{
+        list-style-type: none;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+     .h-h5{
+        color: red;
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 5px;
+        
+    }
+    ol li a{
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+
+    }
+    ol li a:hover{
+        color: rgb(243, 243, 245);
+        text-decoration: underline;
+        background-color: green;
+        border-radius: 4px;
+    }
+    .skill-inner1{
+        /* background-color:rgb(194, 19, 19); */
+        padding: 10px;
+        flex: 80%;
+        padding-top: 20px;
+        text-indent: 5px;
+        letter-spacing: 2px;
+        color: black;
+        width: 100%;
+        /* margin:100px auto 0; */
+    }
+
+
+
+    .html{
+        /* margin: auto; */
+        width: 100%;
+        padding: 30px;
+        border: 0;
+        margin-bottom: 20px;
+        /* box-shadow: 1px 3px 5px black; */
+    }
+    .html h3{
+        color: red;
+        font-style: italic;
+    }
+    .css{
+        margin: auto;
+        /* padding: 30px; */
+        border: 0;
+        margin-bottom: 20px;
+        /* box-shadow: 1px 3px 5px black; */
+    }
+    .bootstrap{
+        /* background-color: gray; */
+        margin: auto;
+        padding: 30px;
+        border: 0;
+        margin-bottom: 20px;
+        box-shadow: 1px 3px 5px black;
+    }
+    .text-flex h3{
+        color: red;
+        font-style: italic;
+    }
+    .table-html{
+        border: 1px solid white;
+        padding: 10px;
+        /* margin: auto; */
+        background-color: white;
+        width: 100%;
+    }
+    .table-html tr td, tr th{
+        border: 1px solid rgb(15, 11, 11);
+        /* padding: 5px; */
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    tr th{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    tr td{
+        padding: 10px;
+        margin: 10px;
+    }
+    .table-html tr td:nth-child(odd), tr th:nth-child(even){
+        background-color: rgba(152, 155, 155, 0.3);
+        
+    }
+    .html h1{
+        text-transform: uppercase;
+        font-weight: 500;
+        text-decoration: underline;
+        color: red;
+        padding: 10px 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .html  p{
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    .html h3{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        
+
+    }
+    .css h1{
+        text-transform: uppercase;
+        font-weight: 500;
+        text-decoration: underline;
+        color: red;
+        padding: 10px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    .css p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        display: block;
+        padding-left: 20px;
+    }
+    .css h3{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+    .cssBody{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .rule-css{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .rule-css h2{
+       text-decoration: underline;
+        padding: 20px 10px;
+        text-align: center;
+        color: red;
+    }
+    .frm-m {
+        /* padding: 10px; */
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+       
+    }
+    span{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        padding: 5px;
+        color: white;
+    } 
+
+        /* MEDIA QUARY FOR LERANING PAGE(S) */
+        /* CSS PAGE MEDIA QUARY */
+        @media only screen and (max-width:765px) {
+            /* MEDIUM SCREEN PHONE RESOLUTION  */
+            .skill-cover{
+                display: block;
+                width: 100%;
+            }
+            .css{
+                width: 100%;
+                padding: 20px;
+            }
+            .cssBody h1{
+                text-align: center;
+                padding-bottom: 20px;
+                font-size: 14px;
+            }
+            .rule-css h2{
+                text-align: center;
+                font-size: 40px;
+            }
+        }
+
+        @media screen and (max-width:965px) {
+            .skill-cover{
+                display: block;
+            }
+            .cssBody h1{
+                text-align: center;
+                padding-bottom: 20px;
+                font-size: 40px;
+            }
+            .rule-css h2{
+                text-align: center;
+                font-size: 40px;
+            }
+        }
+            
+        @media only screen and (min-width: 1064px) {
+            /* BIG SCREEN LAPTOP OR BIGGER  */
+            .skill-cover{
+                display: flex;
+            }
+             .css{
+                box-shadow: none;
+                width: 100%;
+                padding: 30px;
+             }
+             .table-css{
+                width: 100%;
+             }
+        }
+
+        /* HTML PAGE MEDIA QUARY  */
+
+        @media screen and (max-width:965px) {
+            .skill-cover{
+                display: block;
+            }
+            .html {
+               font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            
+           
+
+        }
+
+           
+
+       
+
+    
+    

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+   
+}
+.nav-link{
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(12, 154, 21);
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+
+}
+#logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding: 20px;
+        border-radius: 14px;
+}
+#logo:hover{
+    color:rgb(232, 224, 224);
+    /* background-color: rgb(197, 193, 193); */
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+a.active{
+    /* background-color: blue; */
+    border-radius: 40px;
+    font-weight: bold;
+}
+.btn-but{
+    border: 0;
+    outline: 0;
+    color: green;
+    background-color: transparent;
+}
+.btn-but:hover{
+    color: rgb(8, 213, 35);
+}
+ /*HIGHLIGHT CURRENT PAGE LINK STYLE  */
+
+  .currentpage{
+    background-color: green;
+    border-bottom: solid 1px #10AD98;
+    border-radius: 7px;
+    /* width: 50%; */
+    display: block;
+    color: #fff ;
+    padding: 10px;
+    /* margin: 20px; */
+   }
+   
+
+
+    /* FOOTER STYLING SECTION  */
+    .fot-wrap{
+        min-height: 100%;
+    }
+    .fot-unwrap{
+        overflow: auto;
+        padding: 40px;
+    } 
+
+    .card-body{
+       text-align: center;
+       /* background-color: rgb(6, 6, 6); */
+       background: linear-gradient(360deg, rgb(50, 35, 35), rgb(50, 35, 35)) ;
+       width: 100%;
+       border: none;
+
+    }
+    .footer{
+        font-size: 12px;
+        padding: 10px;
+        color: #fff;
+    }
+    p{
+        font-size: 14px;
+        color: white;
+    }
+    .p-p{
+        padding: 10px;
+        margin: 0;
+        color: #fff;
+        border-bottom: 1px solid;
+    }
+
+    .icon{
+        padding: 0;
+    }
+    .icon a{
+        text-decoration: none;
+    }
+    .icon i{
+        padding: 10px;
+        margin: 10px;
+        color:white;
+    }
+    .icon i:hover{
+        background-color: rgb(41, 39, 39);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+    }
+
+    @media screen and (min-width:1024px) {
+        .card-body{
+            display: block;
+        }
+    }
+
+        /* FORM FILE STYLINNG  */
+
+        .form-body{
+            margin: 100px auto 0;
+            background: linear-gradient(160deg, rgb(44, 124, 215), rgb(195, 109, 198));
+            padding: 30px;
+            width: 50%;
+            
+        }
+        .body-b{
+            /* background:linear-gradient(180deg, rgb(45, 15, 15), rgb(43, 25, 25)); */
+            width: 100%;
+            background-color: black;
+        }
+        form{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+       form label{
+            width: 100%;
+            font-weight: bold;
+            color: white;
+        }
+        form input{
+            width: 100%;
+            margin: 5px;
+            border: 0;
+            /* background-color: transparent; */
+            text-align: center;
+            border-radius: 14px;
+            padding: 10px;
+
+        }
+        input[type=radio]{
+            padding: 0;
+            display: inline-block; 
+        }
+        .form-check{
+            float: left;
+            margin: 5px;
+
+        }
+        input[type=submit]{
+            background-color: green;
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+            
+            
+        }
+        .align{
+            display:block ;
+            align-items: start;
+            justify-content: start;
+            text-align: start;
+            float: left;
+            padding: 10px; 
+        }
+        .check{
+            color: black;
+            font-weight: normal;
+            text-transform: none;
+        }
+        input[type=submit]:hover{
+            border: 1px solid white;
+            background-color: rgb(32, 193, 37);
+            color: black;
+        }
+        input:hover{
+            background-color: rgb(220, 214, 214);
+            cursor: pointer;
+        }
+        .form-body h1{
+            border-bottom: 2px solid white;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        .detail p{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .detail a{
+            font-style: italic;
+            color: blue;
+        }
+        @media only screen and (max-width: 765px){
+            .form-body{
+                width: 90%;
+            }
+            form, label{
+                text-align: center;
+                padding: 5px;
+                text-transform: uppercase;
+            }
+            .check{
+                text-align: start;
+            }
+        }
+
